@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+ #spree-header {
+     background: #fff;
+     font-size: 40px;
+ }

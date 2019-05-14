@@ -8,3 +8,35 @@
  *= require_self
  *= require_tree .
 */
+
+#spree-header {
+    background: #141414;
+    color: #fff;
+}
+
+#spree-header .nav a {
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    margin: 5px;
+}
+
+#spree-header .nav a:hover {
+    color: #141414;
+    background: #fff;
+}
+
+#spree-header #header {
+    background: #707070;;
+    padding: 20px 0;
+}
+
+.btn-success {
+    color: #141414;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+a {
+    color: #141414;
+}
