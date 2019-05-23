@@ -24,8 +24,6 @@
   color: #fff;
   font-weight: 200;
   font-size: 24px;
-  padding: 10px;
-  margin: 5px;
 }
 
 #navlogo {
@@ -146,6 +144,11 @@
   padding-top: 1em;
   padding-right: 10px;
   padding-left: 50px;
+}
+
+#products {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* #spree-header .nav a:hover {
