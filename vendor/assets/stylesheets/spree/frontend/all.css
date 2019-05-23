@@ -94,7 +94,7 @@
 }
 
 #prodhero {
-  color: #fff;
+  color: rgb(43, 255, 181, 1);
   font-size: 5vw;
   text-align: center;
   font-family: "Permanent Marker", cursive;
@@ -102,6 +102,9 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+#main-image {
 }
 
 /* #spree-header .nav a:hover {
@@ -129,7 +132,7 @@ a:hover {
 }
 
 .panel img:hover {
-  transform: scale(1.9);
+  /* transform: scale(5); */
 }
 /* 
 body {
