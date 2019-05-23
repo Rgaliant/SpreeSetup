@@ -14,7 +14,7 @@
  *= require_self
  */
 
- #spree-header {
-     background: #fff;
-     font-size: 40px;
- }
+#spree-header {
+  background: #fff;
+  font-size: 40px;
+}
