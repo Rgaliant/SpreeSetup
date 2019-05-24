@@ -140,15 +140,26 @@
   font-weight: 100;
   font-size: 20px;
   line-height: 1.5;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
   padding-top: 1em;
   padding-right: 10px;
   padding-left: 50px;
 }
 
 #products {
+}
+
+#smokesection {
+  background: #1e162b;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-star;
+  opacity: 0.8;
+  position: relative;
+}
+
+#oilsection {
+  display: flex;
+  justify-content: center;
 }
 
 /* #spree-header .nav a:hover {
@@ -177,6 +188,14 @@ a:hover {
 
 .panel img:hover {
   /* transform: scale(5); */
+}
+
+.panel-footer {
+  font-size: 26px;
+}
+
+#prodinfo {
+  font-size: 1.7vw;
 }
 
 /* 
