@@ -1,4 +1,4 @@
-<nav class="navbar col-md-8 col-sm-9" id="top-nav-bar">
+<nav class="collapse navbar-collapse"  id="top-nav-bar">
   <ul id="nav-bar" class="nav navbar-nav navbar-center" data-hook>
   <li id="home-link" data-hook><%= link_to Spree.t(:home), spree.root_path %></li>
   <li id="home-link" data-hook><%= link_to Spree.t(:about), spree.root_path(anchor: 'aboutheader') %></li>
@@ -15,3 +15,4 @@
       <script>Spree.fetch_cart()</script>
   </ul>
 </nav>
+
