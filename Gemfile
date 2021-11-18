@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 
 gem 'spree', '~> 3.6.4'
-gem 'spree_auth_devise', '~> 3.3'
+gem 'spree_auth_devise', '~> 4.0'
 gem 'spree_gateway', '~> 3.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
